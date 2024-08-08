@@ -10,9 +10,9 @@ export const Header = () => {
         alt="Logo"
         width={354}
         height={110}
-        className="mb-4 md:mb-0 w-[100px] h-auto md:w-[300px] md:h-auto"
+        className="ml-5 md:ml-0 mb-4 md:mb-0 w-[100px] h-auto md:w-[300px] md:h-auto"
       />
-      <div className="space-x-4 flex md:flex-row md:space-x-4">
+      <div className="space-x-4 flex md:flex-row md:space-x-4 ml-auto md:ml-0 mr-5 md:mr-0">
         <CreateAccountButton/>
         <LoginButton/>
       </div>

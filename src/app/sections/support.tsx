@@ -5,7 +5,7 @@ export const SupportSection = () => (
                 <h1 className="text-white text-3xl font-bold mb-4 uppercase">
                     SUPORTE ESPECIALIZADO PARA A SUA OPERAÇÃO
                 </h1>
-                <h2 className="text-white text-xl mb-6">
+                <h2 className="text-white text-md md:text-xl mb-6">
                     A equipe da Eexclusive está disposta e atenta 24 horas por dia, para ajudar sua operação a crescer cada vez mais!
                 </h2>
             </div>
