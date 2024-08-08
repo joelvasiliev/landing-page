@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+
+body {
+  font-family: 'Sora', sans-serif;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +36,30 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.bg-1 {
+  background-image: url('/assets/bg-1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-1-mobile {
+  background-image: url('/assets/bg-1-mobile.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-3 {
+  background-image: url('/assets/bg-3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-4 {
+  background-image: url('/assets/bg-4.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
