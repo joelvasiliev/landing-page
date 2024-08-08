@@ -8,7 +8,7 @@ export const SmartphonesSection = () => (
             alt="duas fotos de smartphones com o app da eexclusive aberto"
             width={400}
             height={600}
-            className="object-contain md:w-auto md:h-auto"
+            className="object-contain md:w-auto md:h-full"
         />
         <div className='w-full md:w-[600px] text-center md:text-left mt-4 md:mt-0'>
             <h1 className='text-white text-[20px] md:text-[40px] font-semibold'>Aumente as suas conversões com o Checkout eexclusive</h1>

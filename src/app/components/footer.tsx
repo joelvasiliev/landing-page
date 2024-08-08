@@ -1,14 +1,18 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const Footer = () => (
     <div className="w-full flex flex-col items-center mt-20 px-4">
+      <Link href={"https://pay.iexclusivepay.com/"}>
       <Image
         src="/assets/logo-branca.png"
         alt="Logo"
+        
         width={280}
         height={80}
         className="mb-10"
       />
+      </Link>
       <div className="flex flex-col md:flex-row justify-evenly w-full md:w-[50%] mb-10">
         <div className='flex flex-col space-y-5'>
             <h1 className='text-white font-semibold uppercase'>Políticas da Eexclusive</h1>

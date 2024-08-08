@@ -8,6 +8,7 @@ import { WhatWeOffer } from "./sections/what-we-offer";
 import { SupportSection } from './sections/support';
 import { FAQSection } from './sections/faq';
 import { Footer } from './components/footer';
+import ScrollToTopButton from './components/scroll-to-top-button';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <SupportSection/>
       <FAQSection/>
       <Footer/>
+      <ScrollToTopButton/>
     </div>
   )
 }
