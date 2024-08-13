@@ -1,6 +1,6 @@
 export const SupportSection = () => (
     <div className="w-full h-[600px] bg-3 flex items-center justify-center text-center">
-        <div className="rounded-2xl bg-black bg-opacity-20 p-6 max-w-4xl w-full h-[350px]">
+        <div data-aos="fade-up" className="rounded-2xl bg-black bg-opacity-20 p-6 max-w-4xl w-full h-[350px]">
             <div className="flex flex-col items-center mx-auto">
                 <h1 className="text-white text-3xl font-bold mb-4 uppercase">
                     SUPORTE ESPECIALIZADO PARA A SUA OPERAÇÃO
